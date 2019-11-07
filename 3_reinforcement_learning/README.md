@@ -4,6 +4,9 @@ In this notebook, the following tasks are accomplished:
 2. Implement value function (Bellman equations).
 3. Implement policy iteration.
 
+#### Party problem
+![moon_data_example](https://github.com/yanb514/ML_programming_assignments/blob/master/3_reinforcement_learning/party_problem.png)
+
 #### Execute the code
 Simply run `RL_party_problem.ipynb` in order.
 
