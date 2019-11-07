@@ -1,34 +1,14 @@
-# ML_svm
-In this notebook, the following tasks are accomplished:
-1. import and visualize moon data using bonnerlib library
-2. train on a noisy data set by tuning soft margin SVM hyperparameters C and Gamma
-3. visualize training and testing errors for varying values of C and gamma
-4. discuss hyperparameters' effect on underfitting and overfitting
+# Decision tree
+The decision tree algorithm takes in a node class, which contains training data as an argument. `TreeGrowth` recursively finds the optimal split between the dataset according to either weighted Gini index or entropy ratio. In each recursive step, the two subsets from the best split are then assigned as the children to that node.
 
-#### Visualize example moon_data. noise = 0
-![moon_data_example](https://github.com/yanb514/ML_svm/blob/master/images/moon_data_example.png)
+#### Data
+The data can be found in the folder "cancer_datasets_v2"
 
-#### Visualize svm classifier on moon_data
-![moon_data_boundary](https://github.com/yanb514/ML_svm/blob/master/images/moon_data_boundary.png)
+#### Pseudocode and helper functions:
+Please see the pdf attachment "HW1 binary decision tree.pdf"
 
-#### Use grid search to find the best hyperparameters C and γ
-![grid_search](https://github.com/yanb514/ML_svm/blob/master/images/grid_search.png)
+#### Execute the code
+Simply run Binary decision tree-submitted.ipynb in order
 
-#### Classifier trained on the best parameters
-![best_parameters](https://github.com/yanb514/ML_svm/blob/master/images/best_parameters.png)
-
-#### Error curve by varying C
-![errors_vary_c](https://github.com/yanb514/ML_svm/blob/master/images/errors_vary_c.png)
-
-#### Decision boundaries by varying C
-![contour_vary_c](https://github.com/yanb514/ML_svm/blob/master/images/contour_vary_c.png)
-
-#### Error curve by varying γ
-![error_vary_gamma](https://github.com/yanb514/ML_svm/blob/master/images/error_vary_gamma.png)
-
-#### Decision boundaries by varying γ
-![contour_vary_gamma](https://github.com/yanb514/ML_svm/blob/master/images/contour_vary_gamma.png)
-
-Discussion: C is introduced to tradeoff between maximizing margin and minimizing the training error. Clearly as shown in the figures above, the margin decreases as C increases as teh decision boundary is better at seperating training examples correctly. On the other hand, a low C value is shown as a simplier decision boundary, as a cost of underfit. C is a regularization parameter that controls overfitting.
-
-Intuitively, when  γ  is too small, the model becomes over simplified and is not able to capture the complexity of the data set. On the other hand, when  γ  is too large, more samples are selected as the support vectors, and the model becomes too complex and overfits the data.  γ  is the inverse of the radius of support vectors, and can be seen as a way to incorporate more complexity of the model.
+#### The best pruned tree
+![treeplot](https://github.com/yanb514/ML_programming_assignments/blob/master/1_decision%20tree/udo.png)
