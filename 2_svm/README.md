@@ -1,4 +1,4 @@
-# ML_svm
+# Support vector machine
 In this notebook, the following tasks are accomplished:
 1. import and visualize moon data using bonnerlib library
 2. train on a noisy data set by tuning soft margin SVM hyperparameters C and Gamma
