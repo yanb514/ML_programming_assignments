@@ -15,6 +15,7 @@ This algorithm (called “DP-means” here) is described in: B. Kulis and M.I. J
 Simply run `k_means_EM.ipynb` in order.
 
 Helper functions:
+
 `read_data`: read txt files. Note that this function only applies to the first (numerical) dataset.
 `DPmeans.calc_lambda`: default lambda, the largest Euclidean distance between two points in a dataset.
 `DPmeans.train`: The train method learns the cluster parameters from the data. The result of the train method are the cluster parameters: the means μk and the number of clusters K.
@@ -22,7 +23,7 @@ Helper functions:
 
 
 ![2d_visual](https://github.com/yanb514/ML_programming_assignments/blob/master/4_unsupervised_learning/2d_visual.png)
-
+Visualize clustering in 2-D
 
 #### Optimal lambda:
 32-D Gaussian dataset: 0.3-1.2
