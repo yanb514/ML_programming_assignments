@@ -1,7 +1,7 @@
 # Unsupervised learning - lambda clustering
 
 ### Lambda - Means
-#### 1.1 λ-Means
+#### λ-Means
 The K-means clustering algorithm groups instances into K clusters. Each cluster is represented by a prototype vector μk, which represents the mean of the examples in that cluster. Cluster assignments are “hard,” meaning that an instance can belong to only a single cluster at a time.
 
 The K-means algorithm works by assigning instances to the cluster whose prototype μk has the smallest distance to the instance (based on, e.g. Euclidean distance). The mean vectors μk are then updated based on the new assignments of instances to clusters, and this process is repeated using an EM-style iterative algorithm.
