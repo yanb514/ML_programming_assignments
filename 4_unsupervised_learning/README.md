@@ -25,6 +25,10 @@ Helper functions:
 ![2d_visual](https://github.com/yanb514/ML_programming_assignments/blob/master/4_unsupervised_learning/2d_visual.png)
 Visualize clustering in 2-D
 
-#### Optimal lambda:
+#### Discussion and results
+##### Optimal lambda
 32-D Gaussian dataset: 0.3-1.2
-water-treatment dataset: 1
+water-treatment dataset: 1.0-1.5
+
+The shape of the curves for both datasets look similar: there is a range for lambda to yield optimal results of the cluster. The lower bound is the bending point of the lambda vs. # clusters curve; the upper bound is the bending point of the lambda vs. variance curve. From this observation, we see that the optimal lambda range for the numerical dataset is 0.3-1.2, and for the water treatment data is 1.0-1.5.  
+
