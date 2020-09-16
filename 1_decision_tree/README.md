@@ -11,4 +11,4 @@ Please see the pdf attachment "HW1 binary decision tree.pdf"
 Simply run Binary decision tree-submitted.ipynb in order
 
 #### The best pruned tree
-![treeplot](https://github.com/yanb514/ML_programming_assignments/blob/master/1_decision%20tree/udo.png)
+![treeplot](https://github.com/yanb514/ML_programming_assignments/blob/master/1_decision_tree/udo.png)
