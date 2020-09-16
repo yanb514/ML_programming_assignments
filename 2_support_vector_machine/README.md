@@ -6,7 +6,7 @@ In this notebook, the following tasks are accomplished:
 4. discuss hyperparameters' effect on underfitting and overfitting
 
 #### Visualize example moon_data. noise = 0
-![moon_data_example](https://github.com/yanb514/ML_svm/blob/master/images/moon_data_example.png)
+![moon_data_example](https://github.com/yanb514/ML_programming_assignments/blob/master/images/moon_data_example.png)
 
 #### Visualize svm classifier on moon_data
 ![moon_data_boundary](https://github.com/yanb514/ML_svm/blob/master/images/moon_data_boundary.png)
